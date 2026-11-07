@@ -1,0 +1,19 @@
+# All free and open source. Install with:  pip install -r requirements.txt
+
+# Stage 2-4: downloading and data handling
+requests>=2.31        # download files from websites
+pandas>=2.0           # tables in Python
+
+# Stage 6: reading PDFs
+pdfplumber>=0.11      # extract text and tables from PDFs
+
+# Stage 7: dashboard
+streamlit>=1.35       # turn Python into a web dashboard
+
+# Testing
+pytest>=8.0           # run the tests in tests/
+
+# Already built into Python (nothing to install):
+#   sqlite3  - the database
+#   xml      - reading XBRL files
+#   csv, pathlib, argparse

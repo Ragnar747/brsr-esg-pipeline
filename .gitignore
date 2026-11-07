@@ -1,0 +1,17 @@
+# Data and the database stay on your computer, not on GitHub
+data/
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.DS_Store
+Thumbs.db

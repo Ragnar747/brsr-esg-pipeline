@@ -1,0 +1,23 @@
+metric,xbrl_tag,standard_unit,category,brsr_core,description
+total_energy,TotalEnergyConsumedFromRenewableAndNonRenewableSources,GJ,energy,Energy footprint,Total energy consumed
+renewable_energy,TotalEnergyConsumedFromRenewableSources,GJ,energy,Energy footprint,Energy from renewable sources
+non_renewable_energy,TotalEnergyConsumedFromNonRenewableSources,GJ,energy,Energy footprint,Energy from non-renewable sources
+scope1_emissions,TotalScope1Emissions,tCO2e,emissions,GHG footprint,Direct emissions
+scope2_emissions,TotalScope2Emissions,tCO2e,emissions,GHG footprint,Emissions from purchased electricity
+scope3_emissions,TotalScope3Emissions,tCO2e,emissions,,Value-chain emissions (leadership indicator)
+water_withdrawal,TotalVolumeOfWaterWithdrawal,kL,water,Water footprint,Total water withdrawn
+water_withdrawal_surface,WaterWithdrawalBySurfaceWater,kL,water,Water footprint,Withdrawn from surface water
+water_withdrawal_ground,WaterWithdrawalByGroundwater,kL,water,Water footprint,Withdrawn from groundwater
+water_withdrawal_third_party,WaterWithdrawalByThirdPartyWater,kL,water,Water footprint,Withdrawn from third-party suppliers
+water_withdrawal_seawater,WaterWithdrawalBySeawaterOrDesalinatedWater,kL,water,Water footprint,Withdrawn from seawater or desalination
+water_withdrawal_others,WaterWithdrawalByOthers,kL,water,Water footprint,Withdrawn from other sources
+water_consumption,TotalVolumeOfWaterConsumption,kL,water,Water footprint,Total water consumed
+water_discharge,TotalWaterDischargedInKilolitres,kL,water,Water footprint,Total water discharged
+waste_generated,TotalWasteGenerated,t,waste,Embracing circularity,Total waste generated
+waste_plastic,PlasticWaste,t,waste,Embracing circularity,Plastic waste
+waste_e_waste,EWaste,t,waste,Embracing circularity,Electronic waste
+waste_hazardous_other,OtherHazardousWaste,t,waste,Embracing circularity,Other hazardous waste
+waste_non_hazardous_other,OtherNonHazardousWasteGenerated,t,waste,Embracing circularity,Other non-hazardous waste
+waste_recovered,TotalWasteRecovered,t,waste,Embracing circularity,Waste recycled or reused
+waste_disposed,TotalWasteDisposed,t,waste,Embracing circularity,Waste incinerated or landfilled
+revenue_from_operations,RevenueFromOperations,INR,size,,Revenue (used for intensities)
